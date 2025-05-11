@@ -4,7 +4,7 @@ import streamlit as st
 from agent import conversational_agent  # Replace with actual import
 
 # Set up the app
-st.set_page_config(page_title="Wiki-Enhanced Conversational Agent", layout="centered")
+st.set_page_config(page_title="WikiArxiv-Enhanced Conversational Agent", layout="centered")
 st.title("🤖 WikiArxiv-Enhanced Conversational Agent")
 
 # Initialize chat history
