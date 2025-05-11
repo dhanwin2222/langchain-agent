@@ -5,7 +5,7 @@ from agent import conversational_agent  # Replace with actual import
 
 # Set up the app
 st.set_page_config(page_title="Wiki-Enhanced Conversational Agent", layout="centered")
-st.title("🤖 Wiki-Enhanced Conversational Agent")
+st.title("🤖 WikiArxiv-Enhanced Conversational Agent")
 
 # Initialize chat history
 if "messages" not in st.session_state:
