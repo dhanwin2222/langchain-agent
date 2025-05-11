@@ -1,3 +1,9 @@
+.
+├── agent.py          # Agent implementation with LLM and tool integration
+├── app.py            # Streamlit user interface
+├── requirements.txt  # Package dependencies
+└── .env              # API keys (create this file locally)
+
 # langchain-agent
 
 1. Clone the repository
