@@ -37,7 +37,7 @@ Add your Groq API key to the .env file like this:
 
 GROQ_API_KEY=your_actual_api_key_here
 
-I will share my api key in project documentation
+I have also put the API key in the project documentation; however, there is a possibility it may have been exhausted by the time of access
 
 6.Run the application
 Once the dependencies are installed, and the API key is set up, run the application using:
