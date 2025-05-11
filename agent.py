@@ -49,7 +49,7 @@ arxiv_tool = ArxivQueryRun(api_wrapper=arxiv_wrapper)
 # - max_tokens: Limits response length to 512 tokens
     
 
-llm = ChatGroq(groq_api_key=api_key, model_name="llama-3.3-70b-versatile", streaming=True,max_tokens=512)
+llm = ChatGroq(groq_api_key=api_key, model_name="llama-3.3-70b-versatile", streaming=True,max_tokens=512,temperature=0.5)
 
 # Create tool list - contains Wikipedia and arxiv for this implementation
 
